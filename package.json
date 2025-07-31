@@ -1,6 +1,6 @@
 {
   "name": "@matiasdc/object-mapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript package for mapping and validating objects with a simple API. It uses Zod for validation and Lodash for deep cloning and merging.",
   "keywords": [
     "object",
