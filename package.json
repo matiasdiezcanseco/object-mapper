@@ -9,14 +9,14 @@
     "mapping",
     "utility"
   ],
-  "homepage": "https://github.com/matiasdiezcanseco/package-name",
+  "homepage": "https://github.com/matiasdiezcanseco/object-mapper",
   "bugs": {
-    "url": "https://github.com/matiasdiezcanseco/package-name/issues"
+    "url": "https://github.com/matiasdiezcanseco/object-mapper/issues"
   },
   "author": "Matias Diez Canseco <matiasdiezcanseco@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matiasdiezcanseco/package-name.git"
+    "url": "git+https://github.com/matiasdiezcanseco/object-mapper.git"
   },
   "files": [
     "dist"
