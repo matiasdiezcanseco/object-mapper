@@ -1,0 +1,36 @@
+{
+  "name": "@matiasdc/object-mapper",
+  "version": "1.0.0",
+  "description": "A TypeScript package for mapping objects with a simple API",
+  "keywords": [
+    "object",
+    "typescript",
+    "mapper",
+    "mapping",
+    "utility"
+  ],
+  "homepage": "https://github.com/matiasdiezcanseco/package-name",
+  "bugs": {
+    "url": "https://github.com/matiasdiezcanseco/package-name/issues"
+  },
+  "author": "Matias Diez Canseco <matiasdiezcanseco@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasdiezcanseco/package-name.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
