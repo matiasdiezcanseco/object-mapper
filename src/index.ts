@@ -1,1 +1,1 @@
-export { add } from './utils.js';
+export { mapAndValidate } from './map-and-validate.js';

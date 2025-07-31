@@ -1,7 +1,7 @@
 {
   "name": "@matiasdc/object-mapper",
   "version": "1.0.0",
-  "description": "A TypeScript package for mapping objects with a simple API",
+  "description": "A TypeScript package for mapping and validating objects with a simple API. It uses Zod for validation and Lodash for deep cloning and merging.",
   "keywords": [
     "object",
     "typescript",
@@ -26,11 +26,21 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build",
-    "format": "prettier --write ."
+    "ci": "npm run build && npm run check-format && npm run test",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "test": "vitest run",
+    "dev": "vitest"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.20",
     "prettier": "^3.6.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@zod/core": "^0.11.6",
+    "lodash": "^4.17.21",
+    "zod": "^4.0.14"
   }
 }
