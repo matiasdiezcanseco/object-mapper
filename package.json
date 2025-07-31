@@ -30,9 +30,12 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "test": "vitest run",
-    "dev": "vitest"
+    "dev": "vitest",
+    "local-release": "changeset version && changeset publish",
+    "prepublishOnly": "npm run ci"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.5",
     "@types/lodash": "^4.17.20",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2",
